@@ -1,0 +1,28 @@
+# Junk files
+*.bak
+*.swp
+*~
+.DS_Store
+._*
+
+# Eclipse/PyCharm/Other IDE Settings
+*.iml
+.browse.VC.db*
+.cproject
+.idea
+.idea/
+.project
+.settings/
+.vagrant/
+
+# Let these ones be user specific, since we have so many different configurations
+*.code-workspace
+.stfolder
+.tags
+.vscode/c_cpp_properties.json
+.vscode/ipch/
+.vscode/last.sql
+.vscode/launch.json
+.vscode/tasks.json
+.vscode/temp.sql
+tags

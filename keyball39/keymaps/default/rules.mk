@@ -1,0 +1,8 @@
+OLED_DRIVER = ssd1306
+
+RGBLIGHT_ENABLE = yes
+
+OLED_ENABLE = yes
+
+VIA_ENABLE = yes
+
