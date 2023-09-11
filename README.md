@@ -29,7 +29,7 @@ This is an experimental firmware for keyball39 with RP2040 MCU.
     ```console
     $ git clone https://github.com/qmk/qmk_firmware.git --depth 1 --recurse-submodules --shallow-submodules -b 0.22.2 qmk
     ```
-3. Create a symbolic link to this `keyball/` directory from [qmk/qmk_firmware]'s `keyboards/` directory.
+3. Create a symbolic link to this `keyball_rp2040/` directory from [qmk/qmk_firmware]'s `keyboards/` directory.
 
     ```console
     $ ls
