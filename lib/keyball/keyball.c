@@ -195,6 +195,8 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
     keyball.last_kc  = keycode;
     keyball.last_pos = record->event.key;
 
+    uint16_t o_keycode = keycode;
+
     if (!process_record_user(keycode, record)) {
         return false;
     }
@@ -258,7 +260,7 @@ bool process_record_kb(uint16_t keycode, keyrecord_t *record) {
 
             default:
                 if (keyball_config.jis){
-                    ret = twpair_on_jis(keycode, record);
+                    ret = twpair_on_jis(o_keycode, record);
                 }
                 break;
         }
